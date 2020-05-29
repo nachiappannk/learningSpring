@@ -1,0 +1,11 @@
+maven archetype
+
+spring cli
+
+spring tools suite
+
+
+mvn archetype:generate
+Take a maven course
+
+
