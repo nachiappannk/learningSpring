@@ -24,6 +24,12 @@ If build plugins are supported in maven whats the advantage of gradle
 How can all the maven project have parent. Is that recursive?
 Who is using the properties set in maven
 
+Why @RestController is needed if the methods of the class has RequestMapping?
+Isn't that implied?
+
+Who defines the convention for application.properties? server.port?
+
+
 
 
 
