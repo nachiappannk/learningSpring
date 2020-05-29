@@ -8,4 +8,22 @@ spring tools suite
 mvn archetype:generate
 Take a maven course
 
+There is a parent mentioned in maven project. The project inherits the contents of the parents and then customized it
+The maven project has properties such as java.version
+The maven project adds dependencies
+What are the scope of dependencies that can be added?
+What is the default scope of dependencies that are added?
+What is exclusions while addint dependency?
+
+what are build plugin in maven?
+Is it got to something with building the project
+If build plugins are supported in maven whats the advantage of gradle
+
+
+
+How can all the maven project have parent. Is that recursive?
+Who is using the properties set in maven
+
+
+
 
