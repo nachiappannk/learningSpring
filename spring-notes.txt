@@ -1,12 +1,13 @@
-maven archetype
+what is maven archetype?
+to be done. Take Maven course
 
-spring cli
+what is spring cli?
+To be done
 
-spring tools suite
-
-
-mvn archetype:generate
-Take a maven course
+What is spring tools suite?
+Spring tools suite is a eclipse plugin that makes spring developement in eclipse easy
+when installed, can support validation of spring config files
+Graphical visualization of bean dependencies
 
 There is a parent mentioned in maven project. The project inherits the contents of the parents and then customized it
 The maven project has properties such as java.version
@@ -57,21 +58,28 @@ class -> stripped by the class loader while loading in to VM
 runtime -> available at run time in the VM
 Class annotations are recorded in the class files and can be read by other byte code parsers
 
-What is the @Documented annotation for annotation
-Understand more about annotations
+What is the @Documented annotation for annotation?
+This can be used while creating annotations
+When annotated this way, the JavaDocs will show that class is annotated
+
+Can you please tell more about annotations?
+annotation are created with @interface
+They are can be applied to various things
+They have various retentions
 
 
 How to annotate a package?
+As shown below
 @PackageLevelAnnotation
 package blammy; // package with a package level annotation.
 
-Annotation that are used only while creating annotations
+What are the annotations used only while creating another annotation?
  @Documented  – Whether to put the annotation in Javadocs
  @Retention  – When the annotation is needed
  @Target?  – Places the annotation can go
  @Inherited  – Whether subclasses get the annotation.
 
-Target annotation values are
+What are the possible targets for annotations?
 ElementType.TYPE (class, interface, enum)
 ElementType.FIELD (instance variable)
 ElementType.METHOD
@@ -81,13 +89,13 @@ ElementType.LOCAL_VARIABLE
 ElementType.ANNOTATION_TYPE (on another annotation)
 ElementType.PACKAGE (remember package-info.java)
 
+What is an ADF?
 Spring is an ADF (Application Development Framework)
 ADFs hugely rely on annotations
 
-Annotation Inheritance
+Is it possible to have annotation inheritance?
 Annotating one annotation with another makes the annotated annotation inherit the annotating annotation
 So multiple inheritance possible in annotation
-
 
 @RequestBody is used to annotate a parameter.
 Is say the request body has to be deserialized in the parameter
