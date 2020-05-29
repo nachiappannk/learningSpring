@@ -1,5 +1,5 @@
 what is maven archetype?
-to be done. Take Maven course
+TBD. Take Maven course
 
 what is spring cli?
 It provides cli ways to create spring application.
@@ -11,11 +11,32 @@ Spring tools suite is a eclipse plugin that makes spring developement in eclipse
 when installed, can support validation of spring config files
 Graphical visualization of bean dependencies
 
+What is parent in pom?
 There is a parent mentioned in maven project. The project inherits the contents of the parents and then customized it
+When a parent is mentioned it inherits the properties of the parent
+
+What is a module in POM?
+module is a mechanism of aggregating projects
+
+What is the difference between dependency and dependency management in POM?
+TBD
+
+What are maven properties?
+Maven properties are properties of the project
+A property defined can be used in other places in the POM with ${property}. So this reduces duplication of information
+The enviornment variables are also available as properties
+
+
 The maven project has properties such as java.version
-The maven project adds dependencies
-What are the scope of dependencies that can be added?
+java.version is a property defined in spring boot
+It is read and makes the compiler version and target version same
+
+What are the scope of dependencies that can be added in the maven project?
+compile, provided, runtime, test, system (similar to provided but we point where this jar is in the system)
+
 What is the default scope of dependencies that are added?
+compile
+
 What is exclusions while addint dependency?
 
 what are build plugin in maven?
