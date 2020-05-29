@@ -2,7 +2,9 @@ what is maven archetype?
 to be done. Take Maven course
 
 what is spring cli?
-To be done
+It provides cli ways to create spring application.
+Does the functionality of the spring initializr
+Provides a way to run spring applications
 
 What is spring tools suite?
 Spring tools suite is a eclipse plugin that makes spring developement in eclipse easy
