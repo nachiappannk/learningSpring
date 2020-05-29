@@ -84,6 +84,16 @@ ElementType.PACKAGE (remember package-info.java)
 Spring is an ADF (Application Development Framework)
 ADFs hugely rely on annotations
 
+Annotation Inheritance
+Annotating one annotation with another makes the annotated annotation inherit the annotating annotation
+So multiple inheritance possible in annotation
+
+
+@RequestBody is used to annotate a parameter.
+Is say the request body has to be deserialized in the parameter
+
+
+
 
 
 
