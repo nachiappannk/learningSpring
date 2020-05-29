@@ -29,6 +29,24 @@ Isn't that implied?
 
 Who defines the convention for application.properties? server.port?
 
+In spring boot, what happened the Dispatcher servlet? Is it provided by a spring library?
+Where has spring configured the embedded Tom cat server?
+How to change the embedded tom cat server of the spring boot application?
+
+Why the version changed from 1.8 to 11? and not 1.11?
+
+Why is @SpringBootApplication annotation necessary?
+
+ClassName.class in java?
+It gives an object that models the class of the object
+It gives the run time class of the object
+Similar to typeof(ClassName) in C#
+
+
+
+
+
+
 
 
 
