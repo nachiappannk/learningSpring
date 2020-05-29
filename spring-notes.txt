@@ -36,11 +36,24 @@ How to change the embedded tom cat server of the spring boot application?
 Why the version changed from 1.8 to 11? and not 1.11?
 
 Why is @SpringBootApplication annotation necessary?
+Marks the configuration class.
+Can declare one or more @Bean methods
+Also triggers the auto-configuration
+And component scanning
+
+
 
 ClassName.class in java?
 It gives an object that models the class of the object
 It gives the run time class of the object
 Similar to typeof(ClassName) in C#
+
+
+What is the @Retention of annotation?
+What is the @Documented annotation for annotation
+Understand more about annotations
+
+
 
 
 
