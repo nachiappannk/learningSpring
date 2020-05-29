@@ -50,9 +50,39 @@ Similar to typeof(ClassName) in C#
 
 
 What is the @Retention of annotation?
+This annotation tells till what point of time the defined annotation will be available
+Source, Class, runtime
+Source -> striped by compiler
+class -> stripped by the class loader while loading in to VM
+runtime -> available at run time in the VM
+Class annotations are recorded in the class files and can be read by other byte code parsers
+
 What is the @Documented annotation for annotation
 Understand more about annotations
 
+
+How to annotate a package?
+@PackageLevelAnnotation
+package blammy; // package with a package level annotation.
+
+Annotation that are used only while creating annotations
+ @Documented  – Whether to put the annotation in Javadocs
+ @Retention  – When the annotation is needed
+ @Target?  – Places the annotation can go
+ @Inherited  – Whether subclasses get the annotation.
+
+Target annotation values are
+ElementType.TYPE (class, interface, enum)
+ElementType.FIELD (instance variable)
+ElementType.METHOD
+ElementType.PARAMETER
+ElementType.CONSTRUCTOR
+ElementType.LOCAL_VARIABLE
+ElementType.ANNOTATION_TYPE (on another annotation)
+ElementType.PACKAGE (remember package-info.java)
+
+Spring is an ADF (Application Development Framework)
+ADFs hugely rely on annotations
 
 
 
